@@ -1,0 +1,133 @@
+(footprint "TESTPOINT_SMD_HARWIN_EZ_BOARDWARE_3.45X1.85mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.1778 -1.8288 0)
+		(layer "F.SilkS")
+		(uuid "71be8ddb-1ddb-4ce8-9f01-068664e411bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TESTPOINT_SMD_HARWIN_EZ_BOARDWARE_3.45X1.85mm"
+		(at 1.27 1.905 0)
+		(layer "F.Fab")
+		(uuid "68b4a05f-f952-4d39-917d-73166cc173a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60a26475-d359-41a4-a5c2-89cb675b06d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "271e269b-a17d-4cd7-9db0-cb126f215701")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.9812 -1.143)
+		(end -1.97422 1.14364)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a2d64f69-1004-44d1-99c1-4aa041bcf2d9")
+	)
+	(fp_line
+		(start 1.8796 -1.143)
+		(end 1.88658 1.14364)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ac72f2ae-3f52-43cb-bb60-5899073dffc2")
+	)
+	(fp_line
+		(start 1.8796 -1.14236)
+		(end -1.97422 -1.14236)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff837a0c-a87a-44c8-a490-49bd7fd99d4e")
+	)
+	(fp_line
+		(start 1.8796 1.14364)
+		(end -1.97422 1.14364)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d18fdce-7d8b-4cbe-b087-eacd2bafcc85")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.0762 0.0762 0)
+		(layer "F.Fab")
+		(uuid "94bbe500-635b-4de3-b88c-ddfe4d1c6876")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.0254 0.00254)
+		(size 3.45 1.85)
+		(layers "F.Cu" "F.Mask")
+		(uuid "97a2924c-eb53-47b9-b2ad-3d67a3b1041b")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/TESTPOINT_SMD.pretty/S1751-XXR.STP"
+		(offset
+			(xyz 0 0.8 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+	(model "${KICAD_USER_LIBRARY}/user_3dmodels/TESTPOINT_SMD.3dshapes/S1751-XXR.STEP"
+		(offset
+			(xyz 0 0.8 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

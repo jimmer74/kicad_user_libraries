@@ -1,0 +1,69 @@
+*****************************************************************
+      SolidWorks Corporation - IGES Processor Status Report
+*****************************************************************
+=================================================================
+General Information
+=================================================================
+Sending System Product I.D.  : DE0 Nano v14
+Receiving System Product I.D.: 
+File Name                    : DE0 Nano v14
+Sending System               : unknown
+Preprocessor Version         : unknown
+File Creation Date           : 20180327.124744
+Model Creation Date          : 20180322.015834
+Units                        : MM
+Model Space Scale            : 1
+Author                       : Baimar97
+Organization                 : unknown
+
+
+=================================================================
+Entity Processing Information
+=================================================================
+
+
+=================================================================
+Precision analysis of IGES file:
+=================================================================
+  Most prevalent number of significant digits:              14
+  Highest number of significant digits:                     14
+  Average number of significant digits:                12.9434
+  Maximum distance to origin:                          13.1772
+  Minimum distance to origin:                     3.87292e-018
+  Effective number of significant digits:                   14
+
+
+=================================================================
+Entity Summary
+=================================================================
+-----------------------------------------------------------------
+Type Name                                         Count Converted
+---- ----                                         ----- ---------
+124  Transformation matrix                           17        17
+126  Rational B-spline curve                      26459     26459
+128  Rational B-spline surface                    10623     10623
+186  Manifold Solid B-rep Object                     74        74
+308  Subfigure definition                            15        15
+314  Color definition                                 6         6
+406  Property                                        63        63
+408  Singular subfigure instance                     26        26
+502  Vertex list                                     74        74
+504  Edge entity                                     74        74
+508  Loop entity                                  10821     10821
+510  Face entity                                  10623     10623
+514  Shell entity                                    74        74
+_________________________________________________________________
+
+
+=================================================================
+Result Summary
+=================================================================
+SolidWorks Feature Type                Count
+-----------------------                -----
+Solid feature(s)                       71
+Surface feature(s)                     147
+Curve/Sketch feature(s)                0
+--------------------------------------------
+Start time: Saturday, March 20, 2021 11:13:16
+Finish time: Saturday, March 20, 2021 11:30:06
+Processing time: 0 days, 00 hours, 16 mins, 50 secs
