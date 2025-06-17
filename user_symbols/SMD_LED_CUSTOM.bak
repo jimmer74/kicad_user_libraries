@@ -58,6 +58,18 @@
 		(symbol "SMD_LED_LUMIX_SINGLE_0_1"
 			(polyline
 				(pts
+					(xy -2.54 0) (xy -3.81 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 0 2.54) (xy -1.27 2.54) (xy -1.27 1.27)
 				)
 				(stroke
@@ -118,8 +130,8 @@
 					(type none)
 				)
 			)
-			(pin input line
-				(at -5.08 0 0)
+			(pin output line
+				(at -6.35 0 0)
 				(length 2.54)
 				(name ""
 					(effects
